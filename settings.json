@@ -1,0 +1,46 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "base_keymap": "VSCode",
+  "theme": "One Dark",
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "cursor_blink": false,
+  "vertical_scroll_margin": 5,
+  "chat_panel": {
+    // Whether to show the collaboration panel button in the status bar.
+    "button": false
+  },
+  "collaboration_panel": {
+    // Whether to show the collaboration panel button in the status bar.
+    "button": false
+  },
+  "assistant": {
+    // Whether to show the chatgpt assistant panel button in the status bar.
+    "button": false
+  },
+  // How to perform a buffer format. This setting can take 4 values:
+  //
+  // 1. Format code using the current language server:
+  //     "formatter": "language_server"
+  // 2. Format code using an external command:
+  //     "formatter": {
+  //       "external": {
+  //         "command": "prettier",
+  //         "arguments": ["--stdin-filepath", "{buffer_path}"]
+  //       }
+  //     }
+  // 3. Format code using Zed's Prettier integration:
+  //     "formatter": "prettier"
+  // 4. Default. Format files using Zed's Prettier integration (if applicable),
+  //    or falling back to formatting via language server:
+  //     "formatter": "auto"
+  "formatter": "auto"
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "context": "not_editing",
+    "bindings": {
+      "k": "menu::SelectPrev",
+      "j": "menu::SelectNext"
+    }
+  },
+  {
+    "context": "Editor && VimControl && !VimWaiting && !menu",
+    "bindings": {
+      // put key-bindings here if you want them to work in normal & visual mode
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+    "bindings": {
+      // put key-bindings here if you want them to work only in normal mode
+      ";": "command_palette::Toggle",
+      "shift-k": "editor::Hover",
+      "space o p": "workspace::ToggleLeftDock",
+      "space f": "outline::Toggle",
+      "space /": "pane::DeploySearch",
+      "space space": "file_finder::Toggle",
+      "space w v": "pane::SplitRight",
+      "space b k": "pane::CloseActiveItem",
+      "space w h": ["workspace::ActivatePaneInDirection", "Left"],
+      "space w l": ["workspace::ActivatePaneInDirection", "Right"],
+      "space w j": ["workspace::ActivatePaneInDirection", "Down"],
+      "space w k": ["workspace::ActivatePaneInDirection", "Up"]
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual && !vimwaiting && !menu",
+    "bindings": {
+      // visual, visual line & visual block modes
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert && !menu",
+    "bindings": {
+      // put key-bindings here if you want them to work in insert mode
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      // Key binds from within the file tree
+      "space o p": "workspace::ToggleLeftDock",
+      "o": "project_panel::ExpandSelectedEntry",
+      "shift-k": "project_panel::CollapseSelectedEntry",
+      "c f": "project_panel::NewFile",
+      "c d": "project_panel::NewDirectory",
+      "d d": "project_panel::Delete",
+      "r": "project_panel::Rename",
+      "enter": "project_panel::Open",
+      "space w l": ["workspace::ActivatePaneInDirection", "Right"]
+    }
+  }
+]
