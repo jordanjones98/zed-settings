@@ -143,29 +143,23 @@
 
 ## Project Panel
 
-| Command                              | Description |
-| ------------------------------------ | ----------- |
-| project_panel::CollapseSelectedEntry |             |
-| project_panel::Copy                  |             |
-| project_panel::CopyPath              |             |
-| project_panel::CopyRelativePath      |             |
-| project_panel::Cut                   |             |
-| project_panel::Delete                |             |
-| project_panel::ExpandSelectedEntry   |             |
-| project_panel::NewDirectory          |             |
-| project_panel::NewFile               |             |
-| project_panel::NewSearchInDirector   |             |
-| project_panel::Open                  |             |
-| project_panel::Paste                 |             |
-| project_panel::Rename                |             |
-| project_panel::RevealInFinder        |             |
-| project_panel::ToggleFocus           |             |
-| project_search::SearchInNew          |             |
-| project_search::ToggleFocu           |             |
-| project_search::ToggleFilters        |             |
-| project_search::ToggleFocus          |             |
-| project_symbols::Toggle              |             |
-| projects::OpenRecent                 |             |
+| Command                              | Description                  |
+| ------------------------------------ | ---------------------------- |
+| project_panel::CollapseSelectedEntry | Collapse Selected Folder     |
+| project_panel::Copy                  | Copy Selected                |
+| project_panel::CopyPath              | Copy Selected Path           |
+| project_panel::CopyRelativePath      | Copy Selected Relative Path  |
+| project_panel::Cut                   | Cut Selected                 |
+| project_panel::Delete                | Delete Selected              |
+| project_panel::ExpandSelectedEntry   | Expand Selected Folder       |
+| project_panel::NewDirectory          | Create New Directory         |
+| project_panel::NewFile               | Create New File              |
+| project_panel::NewSearchInDirectory  | Search in Selected Directory |
+| project_panel::Open                  | Open Selected                |
+| project_panel::Paste                 | Paste Copied                 |
+| project_panel::Rename                | Rename Selected              |
+| project_panel::RevealInFinder        | Reveal Selected in Finder    |
+| project_panel::ToggleFocus           | Toggle Project Panel Focus   |
 
 ## Search
 
@@ -188,15 +182,15 @@
 
 ## Terminal
 
-| Command                        | Description |
-| ------------------------------ | ----------- |
-| terminal::Clear                |             |
-| terminal::Copy                 |             |
-| terminal::Paste                |             |
-| terminal::SendKeystroke        |             |
-| terminal::SendText             |             |
-| terminal::ShowCharacterPalette |             |
-| terminal_panel::ToggleFocus    |             |
+| Command                        | Description                 |
+| ------------------------------ | --------------------------- |
+| terminal::Clear                |                             |
+| terminal::Copy                 |                             |
+| terminal::Paste                |                             |
+| terminal::SendKeystroke        |                             |
+| terminal::SendText             |                             |
+| terminal::ShowCharacterPalette |                             |
+| terminal_panel::ToggleFocus    | Toggle Terminal Panel Focus |
 
 ## Workspace
 
@@ -272,3 +266,8 @@
 | file_finder::Toggle           |             |
 | go_to_line::Toggle            |             |
 | language_selector::Toggle     |             |
+| project_search::SearchInNew   |             |
+| project_search::ToggleFilters |             |
+| project_search::ToggleFocus   |             |
+| project_symbols::Toggle       |             |
+| projects::OpenRecent          |             |
