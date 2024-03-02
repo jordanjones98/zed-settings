@@ -48,7 +48,7 @@
       // Key binds from within the file tree
       "space o p": "workspace::ToggleLeftDock",
       "o": "project_panel::ExpandSelectedEntry",
-      "shift-k": "project_panel::CollapseSelectedEntry",
+      "shift-h": "project_panel::CollapseSelectedEntry",
       "c f": "project_panel::NewFile",
       "c d": "project_panel::NewDirectory",
       "d d": "project_panel::Delete",

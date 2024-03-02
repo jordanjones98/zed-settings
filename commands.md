@@ -136,10 +136,10 @@
 | pane::ReopenClosedItem   |             |
 | pane::SplitDown          |             |
 | pane::SplitLeft          |             |
-| pane::SplitRigh          |             |
+| pane::SplitRight         |             |
 | pane::SplitUp            |             |
 | pane::SelectNextMatch    |             |
-| pane::SelectPrevMatc     |             |
+| pane::SelectPrevMatch    |             |
 
 ## Project Panel
 

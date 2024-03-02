@@ -26,7 +26,7 @@ These docs are only my custom keybinds, not any zed default ones
 
 - `space o p` toggle file tree
 - `o` open highligted folder
-- `shift-k` collapse highlighted folder
+- `shift-h` collapse highlighted folder
 - `c f` new file
 - `c d` new directory
 - `d d` delete
